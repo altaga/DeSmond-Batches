@@ -2,6 +2,9 @@
 
 <img src="./Images/desmond.png" width="49%"> <img src="./Images/qr-code.png" width="43%">
 
+DeSmond Address: 0xC69449f60De274Ca80B6d115019436788Df274dF
+DeSmond Basename: desmond-ai.base.eth
+
 DeSmond es un on-chain AI Agent diseñado para ayudar a los usuarios distintas tareas. Contruido sobre la red de XMTP, a decentralized messaging network, y usando la Base Mainnet como blockchain principal.
 
 ## Fast Links:
