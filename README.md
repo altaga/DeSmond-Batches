@@ -1,4 +1,4 @@
-# 🤖 DeSmond: The On-Chain AI Assistant powered by XMTP and Base
+# 🤖 DeSmond: the onchain agent for group payments, wallets & physical commerce — right inside your Coinbase wallet chats, powered by XMTP and Base.
 
 <img src="./Images/desmond.png" width="49%"> <img src="./Images/qr-code.png" width="43%">
 
@@ -27,15 +27,15 @@ DeSmond es un on-chain AI Agent diseñado para ayudar a los usuarios distintas t
 
 ## ✨ Features:
 
-* **On-Chain Transactions:** Genera transacciones nativas de ETH y USDC directamente en Base Mainnet.  
+* **On-Chain Transactions:** Generates native ETH and USDC transactions directly on Base Mainnet. 
 
-* **Split Payments:** Divide pagos en USDC entre miembros de grupos en chats de XMTP.  
+* **Split Payments:** Splits USDC payments between group members in XMTP chats.
   
-* **Query Balances:** Consulta tus balances de Native Token y USDC en tiempo real.  
+* **Query Balances:** Check your Native Token and USDC balances in real time.
   
-* **Basenames Integration:** Integra Base ENS Domains aka Basenames (`.base.eth`) para realizar transacciones sin problemas.  
+* **Basenames Integration:** Integrate Base ENS Domains aka Basenames (`.base.eth`) for seamless transactions.
   
-* **AI LLM Queries:** Haz queries generales al asistente, este aprovecha herramientas web y locales para ofrecer respuestas precisas.  
+* **AI LLM Queries:** Ask the assistant general queries; it leverages web and local tools to provide precise answers.
 
 ---
 
@@ -47,7 +47,7 @@ DeSmond uses the `@xmtp/node-sdk` to listen for incoming messages, manage conver
 
 * **XMTP Signer**:
 
-En el caso de nuestro agente es un SCW lo cual nos permite mejorar la seguridad y control de este.
+In the case of our agent, it is an SCW, which allows us to improve its security and control.
 
 ```javascript
 
@@ -70,7 +70,7 @@ const signer = {
 
 * **XMTP Client:**
 
-Para el cliente de nuetro agente utilizamos la version de production ya que el agente esta disponible para hablar con el y ejecutar transacciones en Mainnet.
+For our agent client, we use the production version since the agent is available to talk to and execute transactions on Mainnet.
 
 ```javascript
 const client = await Client.create(signer, {
@@ -81,7 +81,7 @@ const client = await Client.create(signer, {
 ```
 * **XMTP Callbacks:**:
 
-Los callbacks para los mensajes entrantes se utilizan para obtener el contexto de la conversacion, asi como obtener datos escenciales para que las herramientas on chain funcionen correctamente. Obtener los mimebros de un grupo, que address invoco el mensaje, etc.
+Callbacks for incoming messages are used to obtain the context of the conversation, as well as to obtain essential data for on-chain tools to function correctly. These include group members, which address invoked the message, etc.
 
 ```javascript
 // On Message DM
@@ -231,7 +231,7 @@ DeSmond comes with a suite of specialized tools that allow it to interact with t
 
 Once deployed and running, our agent DeSmond will listen for messages on the XMTP network.
 
-* **Direct Messages (DMs):** Simplemente envía un mensaje a la address de DeSmond. Puedes preguntar por saldos, iniciar transferencias o realizar queries.
+* **Direct Messages (DMs):** Simply send a message to DeSmond's address. You can check balances, initiate transfers, or make inquiries.
 
     * "What's my ETH balance?"
 
@@ -241,7 +241,7 @@ Once deployed and running, our agent DeSmond will listen for messages on the XMT
 
     * "Search for the latest news on crypto regulations."
 
-* **Group Chats:** En un chat de grupo, tendras que tener la address de Desmond agregada al grupo y para llamar una accion deberas agregar al mensaje `@DeSmond`, para que el agente lo procese, de la misma forma que en WhatsApp llamas a `@meta`. Esto evita que el agente reaccione a cada mensaje en un grupo.
+* **Group Chats:** In a group chat, you'll need Desmond's address added to the group, and to call an action, you'll need to add '@DeSmond' to the message so the agent can process it, just like you call '@meta' in WhatsApp. This prevents the agent from having to react to every message in a group.
   
     * "@DeSmond, split the payment, 1 USDC to desposbased.base.eth"
     * "@DeSmond, what are everyone's ETH balances?"
@@ -258,4 +258,4 @@ Once deployed and running, our agent DeSmond will listen for messages on the XMT
 
 * **Advanced Basenames Features:** Integrate more deeply with Basenames for richer profile information.
 
-* **Group and DM context:** Permitir al agente que pueda acceder a todo el contexto del chat para responder queries o acciones.
+* **Group and DM context:** Allow the agent to access the entire chat context to respond to queries or actions.
