@@ -1,6 +1,6 @@
 # 🤖 DeSmond: The On-Chain AI Assistant powered by XMTP and Base
 
-<img src="./Images/desmond.png" width="49%"> <img src="./Images/qr-code.png" width="49%">
+<img src="./Images/desmond.png" width="49%"> <img src="./Images/qr-code.png" width="43%">
 
 DeSmond es un on-chain AI Agent diseñado para ayudar a los usuarios distintas tareas. Contruido sobre la red de XMTP, a decentralized messaging network, y usando la Base Mainnet como blockchain principal.
 
