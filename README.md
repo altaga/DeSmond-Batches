@@ -216,13 +216,13 @@ Once deployed and running, our agent DeSmond will listen for messages on the XMT
 
 * **Direct Messages (DMs):** Simplemente envía un mensaje a la address de DeSmond. Puedes preguntar por saldos, iniciar transferencias o realizar queries.
 
-* "What's my ETH balance?"
+    * "What's my ETH balance?"
 
-* "Send 0.05 ETH to altagahacker.base.eth"
+    * "Send 0.05 ETH to altagahacker.base.eth"
 
-* "How much USDC do I have?"
+    * "How much USDC do I have?"
 
-* "Search for the latest news on crypto regulations."
+    * "Search for the latest news on crypto regulations."
 
 * **Group Chats:** En un chat de grupo, tendras que tener la address de Desmond agregada al grupo y para llamar una accion deberas agregar al mensaje `@DeSmond`, para que el agente lo procese, de la misma forma que en WhatsApp llamas a `@meta`. Esto evita que el agente reaccione a cada mensaje en un grupo.
   
