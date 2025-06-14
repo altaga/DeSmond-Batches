@@ -4,6 +4,16 @@
 
 DeSmond es un on-chain AI Agent diseñado para ayudar a los usuarios distintas tareas. Contruido sobre la red de XMTP, a decentralized messaging network, y usando la Base Mainnet como blockchain principal.
 
+## Fast Links:
+
+## Proof of transactions:
+
+- Basename Setup: https://basescan.org/name-lookup-search?id=desmond-ai.base.eth
+- Chat Transactions: 
+  - https://basescan.org/tx/0xa16f0a631264470dbd9d4ac1aa275bf120d32bdad7a19a29aa8a996a7ecf6a60
+  - https://basescan.org/tx/0x0a06ed0bb9751df7756811772b3f6f6c90f918464a8888e4017361b8bdddd031
+  - https://basescan.org/tx/0xb331ac6262c02b6f63a127e98130a793e80243e3ef64d905e46c99017afa5351
+
 ## 🖼️ System Diagram:
 
 <img src="./Images/diagram.png">
