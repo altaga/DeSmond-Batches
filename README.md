@@ -1,4 +1,4 @@
-# 🤖 DeSmond: The On-Chain AI Assistant for XMTP
+# 🤖 DeSmond: The On-Chain AI Assistant powered by XMTP and Base
 
 <img src="./Images/desmond.png" width="49%"> <img src="./Images/qr-code.png" width="49%">
 
