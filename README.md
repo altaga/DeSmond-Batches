@@ -9,6 +9,10 @@ DeSmond es un on-chain AI Agent diseñado para ayudar a los usuarios distintas t
 
 ## Fast Links:
 
+[Video]()
+[Presentation]()
+[XMTP.chat](https://xmtp.chat/)
+
 ## Proof of transactions:
 
 - Basename Setup: https://basescan.org/name-lookup-search?id=desmond-ai.base.eth
